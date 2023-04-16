@@ -13,7 +13,7 @@ with open(budget_data) as csvfile:
     name = csv.reader(csvfile, delimiter=',')
     next(name,None)
 
-    #Initializing values at zero
+    #Initializing values of variables
     TotalMonths = 0
     TotalProfitsLoss = 0
 
