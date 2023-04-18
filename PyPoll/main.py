@@ -6,8 +6,8 @@ import csv
 election_data = os.path.join("Resources", "election_data.csv")
 
 #Lists to store data
-candidate_list = []
-winnder = []
+candidate_list = [Charles Casper Stockham, Diana DeGette, Raymon Anthony Doane]
+winner = []
 
 
 #Reading csv file
