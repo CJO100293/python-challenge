@@ -8,6 +8,7 @@ election_data = os.path.join("Resources", "election_data.csv")
 #Lists to store data
 candidate_list = ["Charles Casper Stockham", "Diana DeGette", "Raymon Anthony Doane"]
 candidate_votes = [0,0,0]
+votes_percent = [0,0,0]
 
 #Reading csv file
 with open(election_data) as csvfile:
@@ -28,13 +29,17 @@ with open(election_data) as csvfile:
             candidate_votes[1] += 1
         if candidate_list[2] == row[2]:
             candidate_votes[2] += 1
+#Calculating percentage of votes won for each candidate
+votes_percent[0] = "{:.3f}".format((candidate_votes[0] / total_votes)*100)
+votes_percent[1] = "{:.3f}".format((candidate_votes[1] / total_votes)*100)
+votes_percent[2] = "{:.3f}".format((candidate_votes[2] / total_votes)*100)
 
 #Show On Screen Output
 print('Election Results')
 print('-----------------------------------------------------')
 print(f'Total Votes: {total_votes}')
 print('-----------------------------------------------------')
-print(f'{candidate_list[0]}: more stuff here ({candidate_votes[0]})')
-print(f'{candidate_list[1]}: more stuff here ({candidate_votes[1]})')
-print(f'{candidate_list[2]}: more stuff here ({candidate_votes[2]})')
+print(f'{candidate_list[0]}: {votes_percent[0]}% ({candidate_votes[0]})')
+print(f'{candidate_list[1]}: {votes_percent[1]}% ({candidate_votes[1]})')
+print(f'{candidate_list[2]}: {votes_percent[2]}% ({candidate_votes[2]})')
 print('-----------------------------------------------------')
