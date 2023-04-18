@@ -6,7 +6,7 @@ import csv
 election_data = os.path.join("Resources", "election_data.csv")
 
 #Lists to store data
-candidate_list = [Charles Casper Stockham, Diana DeGette, Raymon Anthony Doane]
+candidate_list = ["Charles Casper Stockham", "Diana DeGette", "Raymon Anthony Doane"]
 winner = []
 
 
@@ -22,23 +22,3 @@ with open(election_data) as csvfile:
     candidate_win_votes = 0
 
     #Starting for loop
-    for row in name:
-            #Adding up total number of votes cast
-
-
-            #complete list of candidates who received votes
-
-
-            #The percentage of votes each candidate won
-
-
-            #The total number of votes each candidate won
-
-
-            #The winner of the election based on popular vote
-
-#Show On Screen Output
-
-
-
-#Output data to text file
