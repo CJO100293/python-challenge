@@ -65,4 +65,4 @@ with open('analysis/output.txt', 'w') as f:
     f.write(f'Total: ${TotalProfitsLoss}\n')
     f.write(f'Average Change: ${average}\n')
     f.write(f'Greatest Increase in Profits: {incr_month} (${greatest_incr})\n')
-    f.write(f'Total: {decr_month} (${greatest_decr})\n')
+    f.write(f'Total: {decr_month} (${greatest_decr})')
