@@ -12,4 +12,6 @@ for finishing up the "#Calculating the change of monthly profits and losses" "#f
 ## PyPoll:
 The basis for the code "total_votes = total_votes + 1" used as a rowcounter in the "#Initializing values of variables" section to get the total votes with all candidates was provided with the assistance of Steve Bennet
 
+Steve Bennet also helped nudge me in the right direction for figuring out the "#Candidate List + calculating total votes per candidate" section
+
 The basis for the code used in the "#Show On Screen Output" and "#Output data to text file" sections was from the same source as in PyBank
