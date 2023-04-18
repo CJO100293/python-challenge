@@ -15,3 +15,5 @@ The basis for the code "total_votes = total_votes + 1" used as a rowcounter in t
 Steve Bennet also helped nudge me in the right direction for figuring out the "#Candidate List + calculating total votes per candidate" section
 
 The basis for the code used in the "#Show On Screen Output" and "#Output data to text file" sections was from the same source as in PyBank
+
+the basis for the code used to format the "votes_percent" variable as a decimal rounded to the last 3 decimal places was found at https://stackoverflow.com/questions/51328193/understanding-the-print-format-3-in-python
