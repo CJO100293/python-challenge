@@ -10,6 +10,6 @@ for finishing up the "#Calculating the change of monthly profits and losses" "#f
 
 
 ## PyPoll:
-The basis for the code "total_votes = sum(1 for row in name)" used as a rowcounter in the "#Initializing values of variables" section was taken from https://stackoverflow.com/questions/16108526/how-to-obtain-the-total-numbers-of-rows-from-a-csv-file-in-python as i thought it was a cleaner simpler set of code then what was in the "05-Ins_BasicRead" activity
+The basis for the code "total_votes = total_votes + 1" used as a rowcounter in the "#Initializing values of variables" section to get the total votes with all candidates was provided with the assistance of Steve Bennet
 
 The basis for the code used in the "#Show On Screen Output" and "#Output data to text file" sections was from the same source as in PyBank
