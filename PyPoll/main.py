@@ -50,3 +50,16 @@ print(f'{candidate_list[2]}: {votes_percent[2]}% ({candidate_votes[2]})')
 print('-----------------------------------------------------')
 print(f'Winner: {greatest_votes}')
 print('-----------------------------------------------------')
+
+#Output data to text file
+with open('analysis/output.txt', 'w') as f:
+    f.write('Election Results\n')
+    f.write('-----------------------------------------------------\n')
+    f.write(f'Total Votes: {total_votes}\n')
+    f.write('-----------------------------------------------------\n')
+    f.write(f'{candidate_list[0]}: {votes_percent[0]}% ({candidate_votes[0]})\n')
+    f.write(f'{candidate_list[1]}: {votes_percent[1]}% ({candidate_votes[1]})\n')
+    f.write(f'{candidate_list[2]}: {votes_percent[2]}% ({candidate_votes[2]})\n')
+    f.write('-----------------------------------------------------\n')
+    f.write(f'Winner: {greatest_votes}\n')
+    f.write('-----------------------------------------------------\n')
