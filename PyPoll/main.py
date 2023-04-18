@@ -34,6 +34,11 @@ votes_percent[0] = "{:.3f}".format((candidate_votes[0] / total_votes)*100)
 votes_percent[1] = "{:.3f}".format((candidate_votes[1] / total_votes)*100)
 votes_percent[2] = "{:.3f}".format((candidate_votes[2] / total_votes)*100)
 
+#Calculating the winner
+winner = max(candidate_votes)
+winnerindex = candidate_votes.index(winner)
+greatest_votes = candidate_list[winnerindex]
+
 #Show On Screen Output
 print('Election Results')
 print('-----------------------------------------------------')
@@ -42,4 +47,6 @@ print('-----------------------------------------------------')
 print(f'{candidate_list[0]}: {votes_percent[0]}% ({candidate_votes[0]})')
 print(f'{candidate_list[1]}: {votes_percent[1]}% ({candidate_votes[1]})')
 print(f'{candidate_list[2]}: {votes_percent[2]}% ({candidate_votes[2]})')
+print('-----------------------------------------------------')
+print(f'Winner: {greatest_votes}')
 print('-----------------------------------------------------')
