@@ -62,4 +62,4 @@ with open('analysis/output.txt', 'w') as f:
     f.write(f'{candidate_list[2]}: {votes_percent[2]}% ({candidate_votes[2]})\n')
     f.write('-----------------------------------------------------\n')
     f.write(f'Winner: {greatest_votes}\n')
-    f.write('-----------------------------------------------------\n')
+    f.write('-----------------------------------------------------')
