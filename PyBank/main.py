@@ -55,7 +55,7 @@ print(f'Total Months: {TotalMonths}')
 print(f'Total: ${TotalProfitsLoss}')
 print(f'Average Change: ${average}')
 print(f'Greatest Increase in Profits: {incr_month} (${greatest_incr})')
-print(f'Greatest Deccrease in Profits: {decr_month} (${greatest_decr})')
+print(f'Greatest Decrease in Profits: {decr_month} (${greatest_decr})')
 
 #Output data to text file
 with open('analysis/output.txt', 'w') as f:
@@ -65,4 +65,4 @@ with open('analysis/output.txt', 'w') as f:
     f.write(f'Total: ${TotalProfitsLoss}\n')
     f.write(f'Average Change: ${average}\n')
     f.write(f'Greatest Increase in Profits: {incr_month} (${greatest_incr})\n')
-    f.write(f'Total: {decr_month} (${greatest_decr})')
+    f.write(f'Greatest Decrease in Profits: {decr_month} (${greatest_decr})')
