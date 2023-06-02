@@ -35,6 +35,7 @@ The total number of votes each candidate won
 
 The winner of the election based on popular vote
 
+# Sources
 ## PyBank Sources
 
 The basis for the code used in the "#Show On Screen Output" and "#Output data to text file" sections was worked on in a study session with Steve Bennet so if there are any similarities in our code here this is why
